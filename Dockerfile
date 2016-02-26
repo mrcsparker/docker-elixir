@@ -9,10 +9,7 @@ RUN apt-get install -y \
       curl \
       locales \
       git \
-      build-essential \
-      nodejs \
-      postgresql-client \
-      sqlite3
+      build-essential
 
 # locale
 RUN echo "en_US UTF-8" > /etc/locale.gen && \
